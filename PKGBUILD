@@ -19,7 +19,7 @@ makedepends=('git' 'python-build' 'python-installer' 'python-setuptools' 'python
 optdepends=('python-yaml: parse Python in YAML metadata')
 checkdepends=('python-yaml')
 source=("$pkgname::git+https://github.com/Python-Markdown/markdown#commit=$_commit")
-sha256sums=('SKIP')
+sha256sums=('5597f3fb5f12918f99b0e2f9898e70d21c8fb70e6f0ad2724c91b81eca33424c')
 
 pkgver() {
   cd "$pkgname"

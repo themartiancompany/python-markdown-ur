@@ -14,6 +14,6 @@ pkgbase = python-markdown
 	depends = python
 	optdepends = python-yaml: parse Python in YAML metadata
 	source = python-markdown::git+https://github.com/Python-Markdown/markdown#commit=08dacae618775831243f6bbab47d9be590d511f2
-	sha256sums = SKIP
+	sha256sums = 5597f3fb5f12918f99b0e2f9898e70d21c8fb70e6f0ad2724c91b81eca33424c
 
 pkgname = python-markdown
