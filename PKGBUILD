@@ -7,8 +7,8 @@
 # Contributor: Chaiwat Suttipongsakul <cwt at bashell dot com>
 
 pkgname=python-markdown
-_commit='08dacae618775831243f6bbab47d9be590d511f2'
-pkgver=3.5.2
+_commit='e524b8fe938738cb4492411a34cce89051cb9695'
+pkgver=3.6
 pkgrel=1
 pkgdesc="Python implementation of John Gruber's Markdown"
 arch=('any')
@@ -19,7 +19,7 @@ makedepends=('git' 'python-build' 'python-installer' 'python-setuptools' 'python
 optdepends=('python-yaml: parse Python in YAML metadata')
 checkdepends=('python-yaml')
 source=("$pkgname::git+https://github.com/Python-Markdown/markdown#commit=$_commit")
-sha256sums=('5597f3fb5f12918f99b0e2f9898e70d21c8fb70e6f0ad2724c91b81eca33424c')
+sha256sums=('17665ec53a4eed996420f13196d7510c34be95853837d834960f632a86478b73')
 
 pkgver() {
   cd "$pkgname"
